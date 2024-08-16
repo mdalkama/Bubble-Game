@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #98B999;
+}
+#pannel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 30px;
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    height: 100px;
+    padding: 0px 30%;
+    background-color: #5a825c;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.box{
+    font-size: 20px;
+    font-weight: 700;
+    color: #5a825c;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+#scoreUpdate{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+#pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 300;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: #5a825c;
+}
+.bubble:hover{
+    background-color: #364f37;
+}
+#gameOver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#gameOver button{
+    padding: 5px 15px;
+    background-color: black;
+    border: none;
+    color: white;
+}
